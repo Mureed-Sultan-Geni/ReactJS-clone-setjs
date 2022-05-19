@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  /* just to check css work or not */
+  /* @apply bg-red-500;   */
+  /* check tailwid work or not */
+}
+/* default  */
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  @apply no-underline text-black;
+}
+/* :default end  */
+.containers {
+  @apply container m-auto;
+}
+/* Header area Start */
+.header {
+  @apply flex justify-between mt-4 fixed top-0 right-0 left-0;
+}
+.logo {
+  @apply w-40;
+}
+
+/* home secrton start  */
+.body-main {
+  @apply mt-24;
+}
+.home-intro {
+  @apply flex items-center w-8/12 m-auto text-center flex-col mb-20;
+}
+.intro-img {
+  @apply w-7/12;
+}
+.intro-text {
+  @apply text-4xl leading-none;
+}
+.intro-text p {
+  @apply text-3xl text-center font-normal mt-6;
+}
+.intro-text button {
+  @apply bg-blue-700 py-6 px-12 rounded-full text-white text-2xl mt-10;
+}
+/* Approach area start  */
+.approach {
+  @apply w-2/4;
+}
+.approach h1 {
+  @apply text-6xl leading-tight;
+}
+.approach p {
+  @apply text-2xl my-16 text-left text-gray-500;
+}
+.approach a {
+  @apply underline text-blue-700 text-2xl font-bold;
+}
+/* framework desctiption start here  */
+.framework {
+  @apply flex;
+}
+.framwork-box {
+  @apply w-11/12 mt-20;
+}
+.framwork-box h5 {
+  @apply text-3xl;
+}
+.framwork-box p {
+  @apply text-xl text-gray-500;
+}
