@@ -1,13 +1,14 @@
-import React from 'react'
-import Routers from './Navigator/Routers'
-import Header from './components/Header'
+import React from "react";
+import Routers from "./Navigator/Routers";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-    <Header/>
-<Routers/>    </>
-  )
+      <Header />
+      <Routers />
+    </>
+  );
 }
 
-export default App
+export default App;

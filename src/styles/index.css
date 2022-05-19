@@ -71,3 +71,55 @@ a {
 .framwork-box p {
   @apply text-xl text-gray-500;
 }
+/* Documentaion start  */
+.documentaion {
+  @apply flex;
+}
+.docs-menu {
+  @apply flex flex-col;
+}
+.docs-menu a {
+  @apply mt-8;
+}
+/* Installation start  */
+.install {
+  @apply ml-48;
+}
+.install a {
+  @apply text-blue-600 font-bold;
+}
+.install h2 {
+  @apply text-6xl my-20;
+}
+.install h3 {
+  @apply text-4xl mt-24 mb-6 font-bold;
+}
+.install p {
+  @apply text-2xl mb-10;
+}
+.box {
+  @apply bg-black text-white py-10 pl-10;
+}
+.box p {
+  @apply m-0;
+}
+/* Product area start  */
+.products{
+  @apply flex justify-center gap-10;
+}
+.product{
+  border:1px;
+  @apply w-80 border-gray-200 border-solid pl-7 mb-10; 
+}
+.product img{
+  @apply w-32 h-28 pt-14 pb-8 ;
+}
+.product h4{
+  @apply text-3xl my-4 ;
+}
+.product p{
+  @apply text-xl my-4 ;
+}
+.product button{
+  @apply bg-blue-600 py-3 px-10 rounded-full text-white text-xl mt-10;
+}
