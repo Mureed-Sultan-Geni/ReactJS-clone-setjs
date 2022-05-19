@@ -76,7 +76,7 @@ a {
   @apply flex;
 }
 .docs-menu {
-  @apply flex flex-col;
+  @apply flex flex-col fixed mt-24;
 }
 .docs-menu a {
   @apply mt-8;
@@ -104,22 +104,69 @@ a {
   @apply m-0;
 }
 /* Product area start  */
-.products{
+.products {
   @apply flex justify-center gap-10;
 }
-.product{
-  border:1px;
-  @apply w-80 border-gray-200 border-solid pl-7 mb-10; 
+.product {
+  border: 1px;
+  @apply w-80 border-gray-200 border-solid pl-7 mb-10;
 }
-.product img{
-  @apply w-32 h-28 pt-14 pb-8 ;
+.product img {
+  @apply w-32 h-28 pt-14 pb-8;
 }
-.product h4{
-  @apply text-3xl my-4 ;
+.product h4 {
+  @apply text-3xl my-4;
 }
-.product p{
-  @apply text-xl my-4 ;
+.product p {
+  @apply text-xl my-4;
 }
-.product button{
+.product button {
   @apply bg-blue-600 py-3 px-10 rounded-full text-white text-xl mt-10;
+}
+/* get start here  */
+.get-start {
+  @apply ml-48 mt-20;
+}
+.get-start h1 {
+  @apply text-6xl;
+}
+.get-start p {
+  @apply text-2xl my-10;
+}
+.get-start h4 {
+  @apply text-3xl mt-20;
+}
+/* Pages Start here  */
+.pages {
+  @apply ml-48 mt-20;
+}
+.pages span {
+  @apply text-red-600;
+}
+.pages h1 {
+  @apply text-6xl my-10;
+}
+.pages p {
+  @apply text-xl mb-10;
+}
+.pages h3 {
+  @apply text-3xl mt-10 mb-5;
+}
+/* template start   */
+.template {
+  @apply ml-48 mt-20;
+}
+.template ul{
+  @apply list-none;
+}.template ul li{
+  @apply my-4 text-lg ml-10;
+}
+.template h1 {
+  @apply text-6xl my-10;
+}
+.template p {
+  @apply text-xl mb-10;
+}
+.template h3 {
+  @apply text-3xl mt-10 mb-5;
 }
